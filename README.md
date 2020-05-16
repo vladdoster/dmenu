@@ -1,16 +1,20 @@
-# Luke's dmenu
+<div align=center>
 
-Extra stuff added to vanilla dmenu:
+<img src="https://suckless.org/logo.svg" 
+     data-canonical-src="https://suckless.org/logo.svg" 
+     width="100" 
+     height="100" />
 
-- reads Xresources (ergo pywal compatible)
-- alpha patch, which importantly allows this build to be embedded in transparent st
-- can view color characters like emoji (libxft-bgra is required for this reason)
-- `-P` for password mode: hide user imput
-- `-r` to reject non-matching input
-- dmenu options are mouse clickable
+#### Personal build of the Dynamic Menu (dmenu)
+This is suckless, the source code is the documentation! Check out [config.h](config.h).
 
-## Installation
+</div>
 
-You must have `libxft-bgra` installed until the libxft upstream is fixed.
+## Patches
 
-After making any config changes that you want, but `make`, `sudo make install` it.
+- Reads Xresources
+- Alpha patch, which importantly allows this build to be embedded in transparent st
+- View color characters like emoji
+- Password mode: Hide user imput with`-P`
+- Reject non-matching input with `-r` 
+- Dmenu options are mouse clickable
