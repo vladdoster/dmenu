@@ -5,7 +5,7 @@
      width="100" 
      height="100" />
 
-#### Personal build of the Dynamic Menu (dmenu)
+#### Personal build of Dynamic Menu (dmenu)
 This is suckless, the source code is the documentation! Check out [config.h](config.h).
 
 </div>
